@@ -23,6 +23,7 @@ yarn start
 Keep the server running. Now add the following entry to your `configuration.yaml` file:
 
 ```yaml
+panel_custom:
     # This is the name of the web component that will be defined by the panel
   - name: react-panel
     sidebar_title: React Demo
@@ -55,6 +56,7 @@ This will make it available from Home Assistant via the url `/local/my-panel/mai
 We then have to configure Home Assitant to use it:
 
 ```yaml
+panel_custom:
   - name: react-panel
     sidebar_title: React Prod
     sidebar_icon: mdi:react
