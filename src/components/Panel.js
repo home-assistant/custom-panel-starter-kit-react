@@ -16,7 +16,6 @@ class Panel extends Component {
       panel,
     } = this.props;
     /* eslint-enable no-unused-vars */
-    console.log('render2')
     return (
       <div className="App">
         <header className="App-header">
