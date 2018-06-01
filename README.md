@@ -34,7 +34,7 @@ panel_custom:
     js_url: http://localhost:8080/main.js
     # We want to load in an iframe to work around limitations in React
     embed_iframe: true
-    # This will be available as prop `panel.config.config`.
+    # This will be available as prop `panel.config`.
     config:
       name: World
 ```

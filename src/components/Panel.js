@@ -12,14 +12,14 @@ class Panel extends Component {
       showMenu,
       // Boolean if the UI should render in narrow mode.
       narrow,
-      // Panel information that Home Assistant has (including config panel.config)
+      // Panel information that Home Assistant has (including config at panel.config)
       panel,
     } = this.props;
     /* eslint-enable no-unused-vars */
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to React, {panel.config.config.name}</h1>
+          <h1 className="App-title">Welcome to React, {panel.config.name}</h1>
         </header>
         <ul className="App-intro">
           {Object.keys(hass.states)
