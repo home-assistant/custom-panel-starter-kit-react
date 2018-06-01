@@ -71,7 +71,7 @@ panel_custom:
 
 Once your panel grows more complex and you need to load extra files (either CSS or JS), you will need to know in advance where your panel will be hosted. You can configure where it will be hosted by adjusting the `panelServingUrl` value in `package.json`.
 
-You can use this url inside your code by using the variable __PUBLIC_PATH__.
+You can use this url inside your code by using the variable `__PUBLIC_PATH__`.
 
 ### ES5 support
 
