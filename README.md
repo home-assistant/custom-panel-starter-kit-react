@@ -25,7 +25,7 @@ Keep the server running. Now add the following entry to your `configuration.yaml
 ```yaml
 panel_custom:
     # This is the name of the web component that will be defined by the panel
-  - name: react-panel
+  - name: reactpanel
     sidebar_title: React Demo
     sidebar_icon: mdi:react
     # This is the url that will load the panel
@@ -57,7 +57,7 @@ We then have to configure Home Assitant to use it:
 
 ```yaml
 panel_custom:
-  - name: react-panel
+  - name: reactpanel
     sidebar_title: React Prod
     sidebar_icon: mdi:react
     url_path: react-panel-prod
