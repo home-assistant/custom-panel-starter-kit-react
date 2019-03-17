@@ -18,7 +18,7 @@ class EntityRow extends Component {
   render() {
     const { stateObj, hass } = this.props;
     const domain = stateObj.entity_id.substr(0, stateObj.entity_id.indexOf('.'));
-    const canToggle = 'toggle' in (hass.config.services[domain] || {})
+    const canToggle = 'toggle' in (hass.services[domain] || {})
     return (
       <li className="EntityRow">
         {stateObj.attributes.entity_picture &&
