@@ -2,6 +2,10 @@
 
 This project will help you get started with building a custom panel for Home Assistant using the React framework.
 
+## :rotating_light: DEPRECATED
+
+This repository is deprecated, unmaintained and archived.
+
 ## Getting started
 
 This guide expects NodeJS 8 or later and Yarn to be installed.
